@@ -322,7 +322,8 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: orange;
+    background: #ed520a31;
+    filter: brightness(85%);
 }
 
 .navbar-toggle {
@@ -769,8 +770,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    filter: brightness(130%);
+
 }
 
 .ltc-white {
@@ -793,10 +794,6 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-/* .bg-dots-bg {
-    background-image: url("../img/dots-bg.webp");
-} */
 
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.webp");
@@ -1016,4 +1013,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+a {
+    font-weight: bold;
 }
