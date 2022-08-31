@@ -625,6 +625,19 @@ a {
     color: #575757!important;
 }
 
+footer a {
+    font-weight: unset;
+    color: unset!important;
+    display: inline-block;
+    padding: 10px;
+}
+
+.social span:hover {
+    background-color: #ffffff40;
+    display: inline-block;
+    width: 80px;
+}
+
 .container {
     max-width: 1000px;
 }
